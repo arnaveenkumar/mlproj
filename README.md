@@ -1,4 +1,4 @@
-                                         ##Facial expression recognition using CNN
+                                         ## Facial expression recognition using CNN
 
 **Introduction:**
 
