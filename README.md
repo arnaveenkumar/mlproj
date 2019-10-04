@@ -10,19 +10,19 @@ It has been proven that convolutional neural networks have advantages in object 
 In this project, CNN models are trained on the Extended Cohn-Kanade (CK+) dataset to recognize 8 basic
 emotions and neutral faces. We experimented different CNN architectures and methods such as dropout and batch normalization.
 
-**Steps to run code:**
+**Steps to run code:** <br/>
 Step 1: Load prepare_data.ipynb <br/>
-Step 2: Download Emotion_labels.zip and extended-cohn-kanade-images from ck++ website : http://www.consortium.ri.cmu.edu/ckagree/ 
-Step 3: Extract the data in one folder 
-Step 4: Create two foders "final_dataset" and "stored_Set" 
-Step 5: With in each folder create subfolders with names : anger, contempt, disgust, fear, happy, neutral, sadness and surprise. 
-Step 6: Run prepare_data.ipynb
+Step 2: Download Emotion_labels.zip and extended-cohn-kanade-images from ck++ website : http://www.consortium.ri.cmu.edu/ckagree/ <br/>
+Step 3: Extract the data in one folder <br/>
+Step 4: Create two foders "final_dataset" and "stored_Set" <br/> 
+Step 5: With in each folder create subfolders with names : anger, contempt, disgust, fear, happy, neutral, sadness and surprise. <br/>
+Step 6: Run prepare_data.ipynb <br/>
 
 Results:
 
 The final images will be stored in the foder: stored_Set train_images.npy, train_labels.npy, test_images.npy, test_labels.npy files which can be used to train and test Machine learning models will be created in the same folder.
 
-**Steps to run main CNN model:**
-Step 1: Load .npy files created before. 
-Step 2: Load CNN_traintest.ipynb file. 
-Step 3: Run CNN_traintest.ipynb
+**Steps to run main CNN model:** <br/>
+Step 1: Load .npy files created before.<br/> 
+Step 2: Load CNN_traintest.ipynb file. <br/>
+Step 3: Run CNN_traintest.ipynb <br/>
