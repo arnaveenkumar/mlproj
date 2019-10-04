@@ -11,7 +11,7 @@ In this project, CNN models are trained on the Extended Cohn-Kanade (CK+) datase
 emotions and neutral faces. We experimented different CNN architectures and methods such as dropout and batch normalization.
 
 **Steps to run code:**
-__Step 1: Load prepare_data.ipynb 
+Step 1: Load prepare_data.ipynb <br/>
 Step 2: Download Emotion_labels.zip and extended-cohn-kanade-images from ck++ website : http://www.consortium.ri.cmu.edu/ckagree/ 
 Step 3: Extract the data in one folder 
 Step 4: Create two foders "final_dataset" and "stored_Set" 
